@@ -1,20 +1,26 @@
 <nav>
-  <h1>Hi.</h1>
-  <a href="/">
+  <h2><a href="/">{{ site.data.theme.name }}</a></h2>
+  </p>
+  <center><a href="https://www.sydney.edu.au/science/about/our-people/academic-staff/pieter.roffelsen.html">Professional Webpage</a> </center> 
+  </p>
     {% if site.data.theme.social.gravatar %}
     <img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/>
     {% else %}
-    <img src="/logo.png" id="logo" alt="Blog logo"/>
+    <img src="/IMG_2665.jpg" width="96%" id="IMG_2665.jpg"/>
     {% endif %}
   </a>
-  <h2>I'm <a href="/">{{ site.data.theme.name }}</a>.</h2>
+  <p>
+ <center><img src="figures/universitylogo.png" width="70%">  </center>
+ <p>
   <div id="bio">
-    <p>I am a research associate at the University of Sydney, in the Integrable Systems group.</p>
+    <small>
+    Carslaw building F07, Room 630 <br>
+    Camperdown NSW 2050 <br>
+    Tel: +61 293 513 879 <br>
     <p>
-      Edit me in <code>_includes/sidebar.html</code>
     </p>
   </div>
   <div id="social">
-    {% include social.html %}
+ {% include social.html %} 
   </div>
-</nav>
+</nav> 
