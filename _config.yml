@@ -33,7 +33,6 @@ header_pages:
  - writing.html
  - talks.html
  - teaching.html
- - mathfiles.html
 
 # Build settings
 theme: minima
